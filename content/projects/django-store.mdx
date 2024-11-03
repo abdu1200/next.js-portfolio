@@ -1,0 +1,78 @@
+---
+title: Django eCommerce Store Backend
+summary:
+  A full-featured eCommerce product store backend API built with Django and
+  MySQL.
+image: /images/projects/ecommerce.jpg
+author: 'Abdulkerim Mohammed'
+publishedAt: '2024-11-02'
+---
+
+This is a comprehensive eCommerce backend application built with Django,
+featuring a robust REST API and integrating MySQL for database management. The
+backend provides essential eCommerce functionalities, including authentication,
+an admin dashboard, and advanced data handling.
+
+## Features
+
+- **RESTful API**: Expose endpoints for managing products, orders, customers,
+  and more.
+- **User Authentication**: Enable user registration, login, and access control.
+- **Admin Dashboard**: A powerful interface for managing products, orders, and
+  users.
+- **Product Catalog Management**: Handle product listings, categories, pricing,
+  and stock.
+- **Order Management**: Track and manage customer orders efficiently.
+- **Data Security**: Secure data handling with Django's built-in security
+  features.
+
+## Technologies
+
+- **Django**: A high-level Python web framework for rapid development.
+- **MySQL**: A reliable relational database system for efficient data storage.
+- **Django REST Framework**: A toolkit for building Web APIs in Django.
+- **JWT Authentication**: Secure user sessions with JSON Web Tokens.
+
+## Getting Started
+
+To get started with this project, you can clone the repository and install the
+dependencies:
+
+```bash
+git clone https://github.com/abdu1200/django-rest-ecommerce-backend-api
+cd django-rest-ecommerce-backend-api
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+pip install -r requirements.txt
+```
+
+Next, set up the database and run migrations:
+
+```bash
+python manage.py migrate
+```
+
+To start the development server:
+
+```bash
+python manage.py runserver
+```
+
+The development server will start at http://localhost:8000.
+
+## Deployment
+
+You can deploy this project on platforms like Heroku, DigitalOcean, or any VPS
+supporting Python and MySQL. Make sure to configure environment variables and
+secure your database credentials.
+
+## View the Code
+
+You can view the source code for this project on GitHub:
+[View the code](https://github.com/abdu1200/django-rest-ecommerce-backend-api).
+
+## Conclusion
+
+This Django-based eCommerce backend is a solid foundation for building scalable
+and secure online stores. With robust features and a RESTful API, it provides a
+seamless backend solution to manage an entire eCommerce ecosystem.

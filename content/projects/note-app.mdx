@@ -1,0 +1,83 @@
+---
+title: React Django Integration
+summary:
+  A full-stack note management app showcasing seamless integration between React
+  and Django.
+image: /images/projects/react-django.jpg
+author: 'Abdulkerim Mohammed'
+publishedAt: '2024-11-02'
+---
+
+This project demonstrates a full-stack note management application that
+integrates React on the frontend with Django as the backend. Built to manage
+notes with CRUD functionalities, this app serves as an example of how React and
+Django can work together to create dynamic and efficient web applications.
+
+## Features
+
+- **Note Management**: Users can create, read, update, and delete notes.
+- **REST API**: Exposes endpoints to manage notes, ensuring smooth client-server
+  interactions.
+- **User Authentication**: Allows users to sign up, log in, and securely manage
+  their notes.
+- **Responsive UI**: A user-friendly and responsive interface built with React.
+- **Data Persistence**: Utilizes Django and a relational database for data
+  management.
+
+## Technologies
+
+- **React**: A powerful JavaScript library for building interactive user
+  interfaces.
+- **Django**: A robust Python web framework used as the backend.
+- **Django REST Framework**: Provides the tools to build and manage RESTful API
+  endpoints.
+- **SQLite**: A lightweight database option used for development (or
+  MySQL/PostgreSQL for production).
+- **JWT Authentication**: Secures the application by handling user
+  authentication with JSON Web Tokens.
+
+## Getting Started
+
+To get started with this project, clone the repository and install the
+dependencies for both the frontend and backend:
+
+### Backend Setup (Django)
+
+```bash
+git clone https://github.com/abdu1200/react-django-full-stack-app
+cd backend
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+The Django backend server will start at http://localhost:8000.
+
+## Frontend Setup (React)
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+The React frontend will start at http://localhost:3000.
+
+## Deployment
+
+You can deploy this full-stack app by hosting the Django API and React frontend
+separately. For example, you could use Heroku for Django and Vercel or Netlify
+for the React frontend. Ensure to configure CORS and update API URLs for a
+seamless deployment.
+
+## View the Code
+
+You can view the source code for this project on GitHub:
+[View the code](https://github.com/abdu1200/react-django-full-stack-app).
+
+## Conclusion
+
+This note management app highlights the capabilities of integrating React with
+Django. By combining Django's backend power with React's dynamic front-end, this
+app provides a cohesive and efficient full-stack solution for managing personal
+notes.

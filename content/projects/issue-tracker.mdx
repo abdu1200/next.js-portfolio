@@ -1,0 +1,87 @@
+---
+  title: Next.js Full stack App
+  summary: A full-stack issue tracker application built with Next.js, Tailwind CSS, Radix UI, Prisma, and MySQL.
+  image: /images/projects/issue-tracker.jpg
+  author: 'Abdulkerim Mohammed'
+  publishedAt: '2024-11-02'
+---
+
+This is a full-stack issue tracker application built with Next.js, utilizing the
+app router for efficient routing. It incorporates Tailwind CSS for styling,
+Radix UI for accessible components, Prisma for database interactions, and MySQL
+for data storage.
+
+## Features
+
+- **Issue Management**: Create, update, and delete issues seamlessly.
+- **User Authentication**: Allow users to sign up, log in, and manage their
+  profiles.
+- **Collaboration Tools**: Enable team members to comment on and assign issues.
+- **Search Functionality**: Quickly find issues using a powerful search feature.
+- **Responsive Design**: A fully responsive interface that works on any device.
+
+## Technologies
+
+- **Next.js**: A React framework for building optimized and dynamic web
+  applications.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Radix UI**: A set of unstyled, accessible components for building
+  high-quality design systems.
+- **Prisma**: A next-generation ORM for Node.js and TypeScript that simplifies
+  database interactions.
+- **MySQL**: A popular relational database management system used for data
+  storage.
+
+## Getting Started
+
+To get started with this project, you can clone the repository and install the
+dependencies:
+
+```bash
+git clone https://github.com/abdu1200/issue-tracker-next-js-full-stack
+cd issue-tracker
+npm install
+```
+
+## Prisma Setup
+
+1. Environment Variables: Create a .env file at the root with your database URL:
+
+DATABASE_URL="mysql://username:password@localhost:3306/mydatabase"
+
+2. Database Migrations: Run the following command to set up the database schema:
+
+```bash
+npx prisma migrate dev --name init
+```
+
+3. Seed the Database (Optional): To populate initial data, run:
+
+```bash
+npx prisma db seed
+```
+
+Once these steps are complete, you can run the development server:
+
+```bash
+npm run dev
+```
+
+The development server will start at http://localhost:3000.
+
+## Deployment
+
+To deploy this project, you can use Vercel. Link your GitHub repository to
+Vercel and deploy the application with ease.
+
+## View the Code
+
+You can view the source code for this project on GitHub:
+[View the code](https://github.com/abdu1200/issue-tracker-next-js-full-stack).
+
+## Conclusion
+
+This issue tracker app is a great example of how to build a full-stack
+application using modern technologies like Next.js and Prisma. By leveraging
+these tools, you can create an efficient platform for managing issues and
+enhancing team collaboration.
